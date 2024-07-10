@@ -2,6 +2,8 @@
 
 # Dependencies
 node_modules
+user-app/node_modules
+user-merchant/node_modules
 .pnp
 .pnp.js
 
