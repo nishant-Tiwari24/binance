@@ -2,12 +2,13 @@
 import Image from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
+import { Appbar } from "@repo/ui/appbar";
+import { useSession, signIn, signOut } from "next-auth/react";
 
 export default function Home() {
-  const balance = 0;
+  const session = useSession();
   return (
- <div>
-  hi there {balance}
- </div>
+  <div>
+  </div>
   );
 }
